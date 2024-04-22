@@ -10,7 +10,8 @@ body {
     font-size: 0.9rem;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
     color: #f5f1e3;
-    background-color: #050505;
+    /* background-color: darkslategrey; */
+    background-color: #22272e;
     letter-spacing: 0.02rem;
     min-height: 100vh;line-height: 1.5;
 
@@ -29,15 +30,17 @@ p {
     align-items: center;
     gap: 10px;
     justify-content: start;
-    background-color: #333;
+    background-color: #1C2128;
     /* text-align: cr; */
     padding: 20px;
-    margin-bottom: 100px
+    margin-bottom: 100px;
+    border-bottom: 1px solid rgba(40, 63, 63, 0.97);
 }
 
 .navbar .title-header{
-   font-size: 1.5rem;
-   font-weight: 600;
+   font-size: 1.2rem;
+   letter-spacing: 1px;
+   font-weight: normal;
    color:aliceblue; 
 }
 
@@ -53,14 +56,14 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 30px;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
 }
 
 .view-more {
     text-align: center;
     font-size: 1rem;
-    color: #1B9AAA;
+    color: #478BE6;
     cursor: pointer;
     margin: 50px 0 60px;
 }
@@ -71,9 +74,11 @@ section {
 
 .repo-card,
 .repodetail-card {
-    border: 1px solid #1B9AAA;
+    border: 1px solid rgba(40, 63, 63, 0.97);
     padding: 13px;
     border-radius: 5px;
+    color: #717e8b;
+    background-color: #22272E;
 }
 
 a {
@@ -86,8 +91,9 @@ a:hover {
 }
 
 .repo-name {
-    color: #1B9AAA;
-    font-size: 2rem;
+    color: #478BE6;
+    font-size: 1.2rem;
+    font-weight: normal;
     word-break: break-word;
 }
 

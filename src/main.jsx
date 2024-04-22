@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import RepoDetails from './pages/RepoDetails'
 import ErrorBoundary from './pages/ErrorBoundary'
 import AppOutlet from './pages/AppOutlet'
+import Footer from './components/Footer'
 
 
 
@@ -13,7 +14,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <>
       <Route path="/" element={<Home />} errorElement={<ErrorBoundary />} />
-      <Route path="/repodetails" element={<AppOutlet />}>
+      <Route path="/repoDetails" element={<AppOutlet />}>
         <Route path=":id" element={<RepoDetails />} />
       </Route>
     </>
