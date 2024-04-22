@@ -69,8 +69,9 @@
 
 // SECOND APPROACH
 
-import { useEffect, useState } from "react"
-import { Link } from "react-router-dom"
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import Footer from "../components/Footer"; 
 
 function Home() {
   const [user, setUser] = useState([]) // Changed initial state to an empty array
@@ -121,7 +122,13 @@ function Home() {
         {userElements}
       </section>
       <p className="view-more" onClick={viewMore}>{showViewMore}</p>
+
+      
+      <Footer />
     </>
+    
+    
+    
   )
 }
 

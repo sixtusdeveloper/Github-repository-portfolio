@@ -14,7 +14,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <>
       <Route path="/" element={<Home />} errorElement={<ErrorBoundary />} />
-      <Route path="/repoDetails" element={<AppOutlet />}>
+      <Route path="/repodetails" element={<AppOutlet />}>
         <Route path=":id" element={<RepoDetails />} />
       </Route>
     </>
