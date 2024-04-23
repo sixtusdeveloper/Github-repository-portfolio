@@ -157,7 +157,7 @@ margin: auto 20px;
     border: 2px solid #24b4fb;
     background-color: #24b4fb;
     border-radius: 0.9em;
-    padding: 8px 14px;
+    padding: 6px 14px;
     transition: all ease-in-out 0.2s;
     font-size: 16px;
    }
@@ -227,6 +227,23 @@ a:hover {
     text-decoration: underline;
 }
 
+.repo-card .repo-span-items{
+    display: inline-flex;
+    justify-content: start;
+    align-items: center;
+    text-align: left;
+}
+
+.repo-span-items .visibility{
+ border: 1px solid #333;
+ border-radius: 16px;
+ padding: 2px 8px;
+ margin-left: 10px;
+ box-shadow:rgba(0, 0, 0, 0.075), #717e8b;
+ word-break: break-word;
+
+}
+
 .repo-name {
     color: #478BE6;
     font-size: 1.2rem;
@@ -245,6 +262,7 @@ a:hover {
     padding: 15px 0;
     word-break: break-all;
 }
+
 
 .repo-mini-details {
     gap: 10px 50px;
